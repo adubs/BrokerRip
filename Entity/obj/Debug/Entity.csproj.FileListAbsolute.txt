@@ -1,0 +1,7 @@
+c:\code\brokerrip\BrokerRip\Entity\bin\Debug\Entity.dll
+c:\code\brokerrip\BrokerRip\Entity\bin\Debug\Entity.pdb
+c:\code\brokerrip\BrokerRip\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+c:\code\brokerrip\BrokerRip\Entity\obj\Debug\Entity.dll
+c:\code\brokerrip\BrokerRip\Entity\obj\Debug\Entity.pdb
+c:\code\brokerrip\BrokerRip\Entity\bin\Debug\Newtonsoft.Json.dll
+c:\code\brokerrip\BrokerRip\Entity\bin\Debug\Newtonsoft.Json.xml

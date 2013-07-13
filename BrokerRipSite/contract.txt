@@ -1,0 +1,41 @@
+{
+   'api' : 'BrokerRip',
+   'operations' : {
+      'description' : 'A collection of Broker Views with high targets',
+      'summary' : {
+         'returns' : {
+            'schema' : {
+               'properties' : {
+                  'brokerRips' : {
+                     'items' : {
+                        'properties' : {
+                           'brokerName' : {
+                              'required' : true,
+                              'type' : 'string'
+                           },
+                           'stockName' : {
+                              'required' : true,
+                              'type' : 'string'
+                           },
+                           'targetIncrease' : {
+                              'required' : true,
+                              'type' : 'number'
+                           }
+                        },
+                        'type' : 'object'
+                     },
+                     'minItems' : 0,
+                     'required' : true,
+                     'type' : 'array'
+                  },
+                  'sourceCount' : {
+                     'required' : true,
+                     'type' : 'integer'
+                  }
+               },
+               'type' : 'object'
+            }
+         }
+      }
+   }
+}

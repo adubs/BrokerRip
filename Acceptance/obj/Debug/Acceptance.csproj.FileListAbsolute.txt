@@ -1,0 +1,16 @@
+c:\code\brokerrip\BrokerRip\Acceptance\bin\Debug\Acceptance.dll
+c:\code\brokerrip\BrokerRip\Acceptance\bin\Debug\Acceptance.pdb
+c:\code\brokerrip\BrokerRip\Acceptance\obj\Debug\Acceptance.csprojResolveAssemblyReference.cache
+c:\code\brokerrip\BrokerRip\Acceptance\obj\Debug\Acceptance.dll
+c:\code\brokerrip\BrokerRip\Acceptance\obj\Debug\Acceptance.pdb
+c:\code\brokerrip\BrokerRip\Acceptance\bin\Debug\Acceptance.dll.config
+c:\code\brokerrip\BrokerRip\Acceptance\bin\Debug\Newtonsoft.Json.dll
+c:\code\brokerrip\BrokerRip\Acceptance\bin\Debug\nunit.framework.dll
+c:\code\brokerrip\BrokerRip\Acceptance\bin\Debug\TechTalk.SpecFlow.dll
+c:\code\brokerrip\BrokerRip\Acceptance\bin\Debug\Newtonsoft.Json.xml
+c:\code\brokerrip\BrokerRip\Acceptance\bin\Debug\nunit.framework.xml
+c:\code\brokerrip\BrokerRip\Acceptance\bin\Debug\Entity.dll
+c:\code\brokerrip\BrokerRip\Acceptance\bin\Debug\Entity.pdb
+c:\code\brokerrip\BrokerRip\Acceptance\bin\Debug\FluentAssertions.dll
+c:\code\brokerrip\BrokerRip\Acceptance\bin\Debug\FluentAssertions.pdb
+c:\code\brokerrip\BrokerRip\Acceptance\bin\Debug\FluentAssertions.xml

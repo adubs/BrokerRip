@@ -1,0 +1,66 @@
+{
+{
+   "description" : "BrokerRip Api",
+   "operations" : {
+      "summary" : {
+         "description" : "Gets Summary of Stocks with high Target Value\r\n",
+         "method" : "GET",
+         "parameters" : {
+            "Target\r\n" : {
+               "description" : "A list of restaurant IDs to get the details of.",
+               "items" : {
+                  "minimum" : 1,
+                  "type" : "integer"
+               },
+               "required" : false,
+               "type" : "list"
+            }
+         },
+         "returns" : {
+            "description" : "A Summary of Broker Views for stocks with a high target price",
+            "schema" : {
+               "properties" : {
+                  "brokerRips" : {
+                     "items" : {
+                        "minItems" : {
+                           "summary" : {}
+                        },
+                        "properties" : {
+                           "SourceName" : {
+                              "required" : true,
+                              "type" : "string"
+                           },
+                           "stocks\r\n" : {
+                              "items" : {
+                                 "properties" : {
+                                    "brokerName" : {
+                                       "required" : true,
+                                       "type" : "string"
+                                    },
+                                    "stockName" : {
+                                       "required" : true,
+                                       "type" : "integer"
+                                    },
+                                    "targetIncrease" : {
+                                       "required" : true,
+                                       "type" : "string"
+                                    }
+                                 },
+                                 "type" : "object"
+                              },
+                              "minItems" : 0,
+                              "type" : "array"
+                           }
+                        },
+                        "type" : "object"
+                     }
+                  }
+               },
+               "type" : "object"
+            }
+         },
+         "status" : "ProductionReady",
+         "urlFormat" : "/summary"
+      }
+   }
+}
